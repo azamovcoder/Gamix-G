@@ -87,6 +87,78 @@
         }
     }
 
+    .shop__bottom {
+        .item__carusel {
+            display: flex;
+            gap: 50px;
+            align-items: center;
+
+            .item__carusel__left__img {
+                width: calc(40% - 25px);
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .item__carusel__right__infos {
+                width: calc(60% - 10px);
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+
+                &__title {
+                    font-size: 28px;
+                    list-style: 38px;
+                    color: $primaryColor;
+                }
+
+                &__stars {
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+
+                    span {
+                        font-size: 18px;
+                        list-style: 24px;
+                        color: $primaryColor;
+                    }
+                }
+
+                &__price {
+                    display: flex;
+                    gap: 20px;
+
+                    span:nth-child(1) {
+                        font-size: 24px;
+                        line-height: 24px;
+                        color: $backgroundColor;
+                    }
+
+                    span:nth-child(2) {
+                        font-size: 24px;
+                        line-height: 24px;
+                        color: $blackColor;
+                        opacity: 0.5;
+                        text-decoration: line-through;
+                    }
+                }
+
+                &__btn {
+                    max-width: 200px;
+                    display: flex;
+                    gap: 5px;
+                    align-items: center;
+                    justify-content: center;
+
+                    img {
+                        width: 20%;
+                    }
+                }
+            }
+        }
+    }
+
     @media (max-width:1200px) {
         .shop__top__left__title {
             font-size: 45px;
@@ -177,7 +249,7 @@
             width: 90%;
         }
 
-        .shop__top__left__title{
+        .shop__top__left__title {
             padding: 15px 0;
         }
 

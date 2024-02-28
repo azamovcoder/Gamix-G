@@ -348,6 +348,64 @@ body {
 .shop .shop__top__right__infos__btn img {
   width: 20%;
 }
+.shop .shop__bottom .item__carusel {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.shop .shop__bottom .item__carusel .item__carusel__left__img {
+  width: calc(40% - 25px);
+}
+.shop .shop__bottom .item__carusel .item__carusel__left__img img {
+  width: 100%;
+}
+.shop .shop__bottom .item__carusel .item__carusel__right__infos {
+  width: calc(60% - 10px);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.shop .shop__bottom .item__carusel .item__carusel__right__infos__title {
+  font-size: 28px;
+  list-style: 38px;
+  color: #2E2594;
+}
+.shop .shop__bottom .item__carusel .item__carusel__right__infos__stars {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.shop .shop__bottom .item__carusel .item__carusel__right__infos__stars span {
+  font-size: 18px;
+  list-style: 24px;
+  color: #2E2594;
+}
+.shop .shop__bottom .item__carusel .item__carusel__right__infos__price {
+  display: flex;
+  gap: 20px;
+}
+.shop .shop__bottom .item__carusel .item__carusel__right__infos__price span:nth-child(1) {
+  font-size: 24px;
+  line-height: 24px;
+  color: #B53071;
+}
+.shop .shop__bottom .item__carusel .item__carusel__right__infos__price span:nth-child(2) {
+  font-size: 24px;
+  line-height: 24px;
+  color: black;
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+.shop .shop__bottom .item__carusel .item__carusel__right__infos__btn {
+  max-width: 200px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.shop .shop__bottom .item__carusel .item__carusel__right__infos__btn img {
+  width: 20%;
+}
 @media (max-width: 1200px) {
   .shop .shop__top__left__title {
     font-size: 45px;
