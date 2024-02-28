@@ -1,72 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="images/logo.svg">
-        <title>Gamix-G</title>
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        />
-        <link rel="stylesheet" href="./css/style.min.css" />
-    </head>
-    <body>
-        <div class="back-top">
-            <a href="#hero">
-                <i class="fa-solid fa-arrow-up-long"></i>
-            </a>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/logo.svg">
+    <title>Gamix-G</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+</head>
+
+<body>
+    <div class="back-top">
+        <a href="#hero">
+            <i class="fa-solid fa-arrow-up-long"></i>
+        </a>
+    </div>
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav df">
+                <div class="header__nav__logo">
+                    <a href="index.html"> <img src="images/logo.svg" alt=""></a>
+                </div>
+                <div class="header__nav__right__btns df">
+                    <ul class="header__nav__right__list df">
+                        <li class="header__nav__right__list__item">
+                            <a href="#hero">Home</a>
+                        </li>
+                        <li class="header__nav__right__list__item">
+                            <a href="#">Games</a>
+                        </li>
+                        <li class="header__nav__right__list__item">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="header__nav__right__list__item">
+                            <a href="#">Contact</a>
+                        </li>
+                        <li class="header__nav__right__list__close">
+                            <i class="fa-solid fa-x"></i>
+                        </li>
+                    </ul>
+
+                    <button class="btn">
+                        Contact
+                    </button>
+                    <button class="header__nav__right__btns__hamburger">
+                        <span class="header__nav__right__btns__hamburger__line"></span>
+                        <span class="header__nav__right__btns__hamburger__line"></span>
+                        <span class="header__nav__right__btns__hamburger__line"></span>
+                    </button>
+                </div>
+            </nav>
         </div>
-        <header class="header">
+    </header>
+    <main>
+        <!-- section shop start -->
+        <section id="shop" class="shop">
             <div class="container">
-                <nav class="header__nav df">
-                    <div class="header__nav__logo">
-                        <a href="index.html"> <img src="images/logo.svg" alt=""></a>
+                <div class="shop__top">
+                    <div class="shop__top__left">
+                        <h3 class="shop__top__left__subtitle subtitle">Our Shop</h3>
+                        <h1 class="shop__top__left__title title">Our Featured <span>Game</span></h1>
+                        <p class="shop__top__left__desc desc">Gaming and Sports Template that is designed to build
+                            modern Online Game, Gaming News Portal, Gaming Online News Portal,
+                            and other News services websites and it is suitable for any kind of small business activity.
+                        </p>
                     </div>
-                    <div class="header__nav__right__btns df">
-                        <ul class="header__nav__right__list df">
-                            <li class="header__nav__right__list__item">
-                                <a href="#hero">Home</a>
-                            </li>
-                            <li class="header__nav__right__list__item">
-                                <a href="#">Games</a>
-                            </li>
-                            <li class="header__nav__right__list__item">
-                                <a href="#">About</a>
-                            </li>
-                            <li class="header__nav__right__list__item">
-                                <a href="#">Contact</a>
-                            </li>
-                            <li class="header__nav__right__list__close">
-                                <i class="fa-solid fa-x"></i>
-                            </li>
-                        </ul>
-                       
-                        <button class="btn">
-                            Contact
-                        </button>
-                        <button class="header__nav__right__btns__hamburger">
-                            <span
-                                class="header__nav__right__btns__hamburger__line"
-                            ></span>
-                            <span
-                                class="header__nav__right__btns__hamburger__line"
-                            ></span>
-                            <span
-                                class="header__nav__right__btns__hamburger__line"
-                            ></span>
-                        </button>
+                    <div class="shop__top__right">
+                        <div class="shop__top__right__img">
+                            <img src="./images/shop/shop_top_card.svg" alt="">
+                        </div>
+                        <div class="shop__top__right__infos">
+                            <div class="shop__top__right__infos__title">Humankind digital game Deluxe</div>
+                            <div class="shop__top__right__infos__stars">
+                                <img src="./images/shop/star.svg" alt="">
+                                <img src="./images/shop/star.svg" alt="">
+                                <img src="./images/shop/star.svg" alt="">
+                                <img src="./images/shop/star.svg" alt="">
+                                <img src="./images/shop/staryar.svg" alt="">
+                                <span>125+Review</span>
+                            </div>
+                            <button class="shop__top__right__infos btn"><span>Shop Now</span><img
+                                    src="./images/shop/next.svg" alt=""></button>
+                        </div>
                     </div>
-                </nav>
+                </div>
+                <div class="shop__bottom"></div>
             </div>
-        </header>
-        <main>
-          <!-- section hero start -->
-          <!-- section hero end -->
-        </main>
-        <script src="./js/main.js"></script>
-    </body>
+        </section>
+        <!-- section shop end -->
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+
 </html>
