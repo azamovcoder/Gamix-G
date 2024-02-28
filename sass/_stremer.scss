@@ -1,3 +1,37 @@
 #stremer {
-    padding: 70px 0;
+    padding: 100px 0;
+    background: url(../images/stremer/stream-bg-main.png) no-repeat center;
+    background-size: cover;
+}
+
+.stremer {
+    &__top {
+        text-align: center;
+        &__subtitle {
+            padding-bottom: 30px;
+        }
+        &__title {
+            span {
+                color: $backgroundColor;
+                padding-bottom: 11px;
+                border-bottom: 3px solid;
+            }
+        }
+    }
+    &__bottom {
+        padding-top: 60px;
+        gap: 100px;
+        &__left-img {
+            width: 50%;
+            &__1 {
+                width: 100%;
+            }
+        }
+        &__right-img {
+            width: 50%;
+            &__2 {
+                width: 100%;
+            }
+        }
+    }
 }

@@ -182,7 +182,7 @@ body {
   display: block;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .header__nav__right__list {
     position: fixed;
     top: 0;
@@ -209,4 +209,41 @@ body {
   .header__nav__right__list__close {
     display: block;
   }
+}
+#hero {
+  padding-top: 100px;
+}
+
+#stremer {
+  padding: 100px 0;
+  background: url(../images/stremer/stream-bg-main.png) no-repeat center;
+  background-size: cover;
+}
+
+.stremer__top {
+  text-align: center;
+}
+.stremer__top__subtitle {
+  padding-bottom: 30px;
+}
+.stremer__top__title span {
+  color: #B53071;
+  padding-bottom: 11px;
+  border-bottom: 3px solid;
+}
+.stremer__bottom {
+  padding-top: 60px;
+  gap: 100px;
+}
+.stremer__bottom__left-img {
+  width: 50%;
+}
+.stremer__bottom__left-img__1 {
+  width: 100%;
+}
+.stremer__bottom__right-img {
+  width: 50%;
+}
+.stremer__bottom__right-img__2 {
+  width: 100%;
 }
