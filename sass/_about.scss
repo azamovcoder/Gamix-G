@@ -1,0 +1,86 @@
+.about {
+  padding: 90px 0;
+  background: url(../images/about/robots-bg-center.png) no-repeat,
+    url(../images/about/robots-bg.png) no-repeat center center,
+    url(../images/about/robots-bg-first.png) center center,
+    url(../images/about/robots-bg-second.png) center center,
+    url(../images/about/ro) no-repeat center center,
+    url(../images/about/robots-bg-dots.png) no-repeat left bottom calc(140px),
+    url(../images/about/about-bg-girl.svg) no-repeat center left,
+    url(../images/about/about-bg-medal.svg) no-repeat bottom left calc(130px),
+    url(../images/about/about-bg-x.svg) no-repeat center center,
+    url(../images/about/about-bg-4.svg) no-repeat center right calc(140px),
+    url(../images/about/about-bg-4.svg) no-repeat center calc(700px),
+    url(../images/about/about-bg-o.svg) no-repeat center calc(100px),
+    url(../images/about/about-bg-o.svg) no-repeat center right;
+  background-color: #ffecfb;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+  }
+
+  &__right {
+    &__subtitle {
+      margin-bottom: 30px;
+      font-weight: 400;
+    }
+
+    &__title {
+      margin-bottom: 35px;
+      background: url(../images/about/about-title-line.png) no-repeat bottom
+        left;
+      &__main {
+        color: #842774;
+      }
+    }
+
+    &__desc {
+      max-width: 518px;
+      margin-bottom: 30px;
+      color: #332b5c;
+    }
+
+    &__btn {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+  }
+
+  @media (max-width: 1030px) {
+    &__container {
+      flex-direction: column;
+    }
+
+    &__left img {
+      width: 100%;
+    }
+
+    .about__right__title,
+    .about__right__title__main {
+      font-size: 40px;
+      line-height: normal;
+    }
+
+    .about__right__subtitle {
+      font-size: 18px;
+    }
+
+    .about__right__desc {
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .about__right__title,
+    .about__right__title__main {
+      font-size: 30px;
+    }
+
+    .about__right__subtitle {
+      font-size: 16px;
+    }
+  }
+}
