@@ -1,18 +1,17 @@
 .about {
   padding: 90px 0;
   background: url(../images/about/robots-bg-center.png) no-repeat,
-    url(../images/about/robots-bg.png) no-repeat center center,
     url(../images/about/robots-bg-first.png) center center,
     url(../images/about/robots-bg-second.png) center center,
     url(../images/about/ro) no-repeat center center,
     url(../images/about/robots-bg-dots.png) no-repeat left bottom calc(140px),
-    url(../images/about/about-bg-girl.svg) no-repeat center left,
-    url(../images/about/about-bg-medal.svg) no-repeat bottom left calc(130px),
+    url(../images/about/about-bg-girl.svg) no-repeat left calc(90px) top calc(200px),
+    url(../images/about/about-bg-medal.svg) no-repeat bottom calc(200px) left calc(130px),
     url(../images/about/about-bg-x.svg) no-repeat center center,
-    url(../images/about/about-bg-4.svg) no-repeat center right calc(140px),
-    url(../images/about/about-bg-4.svg) no-repeat center calc(700px),
-    url(../images/about/about-bg-o.svg) no-repeat center calc(100px),
-    url(../images/about/about-bg-o.svg) no-repeat center right;
+    url(../images/about/about-bg-4.svg) no-repeat bottom calc(100px) right calc(140px),
+    url(../images/about/about-bg-4.svg) no-repeat bottom calc(100px) left calc(500px),
+    url(../images/about/about-bg-o.svg) no-repeat top calc(150px) left calc(500px),
+    url(../images/about/about-bg-o.svg) no-repeat top calc(250px) right calc(200px);
   background-color: #ffecfb;
 
   &__container {
