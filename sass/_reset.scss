@@ -61,6 +61,24 @@ button {
     background: $secondaryColor;
 }
 
+.subtitle{
+    font-size: 20px;
+    line-height: 24px;
+    color: $primaryColor;
+}
+
+.title{
+    font-size: 58px;
+    line-height: 68px;
+    color: $blackColor;
+}
+
+.desc {
+    font-size: 18px;
+    line-height: 24px;
+    color: $blackColor;
+}
+
 .show__back-top {
     display: flex;
 }
