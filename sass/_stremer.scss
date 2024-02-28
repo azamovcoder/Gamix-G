@@ -1,0 +1,75 @@
+#stremer {
+    padding: 100px 0;
+    background: url(../images/stremer/stream-bg-main.png) no-repeat center;
+    background-size: cover;
+}
+
+.stremer {
+    &__top {
+        text-align: center;
+        &__subtitle {
+            padding-bottom: 30px;
+        }
+        &__title {
+            span {
+                color: $backgroundColor;
+                padding-bottom: 11px;
+                border-bottom: 3px solid;
+            }
+        }
+    }
+    &__bottom {
+        padding-top: 60px;
+        // gap: 100px;
+        &__item {
+            // width: 50%;
+            img {
+                width: 100px;
+                height: 100px;
+                padding: 125px 235px;
+                background: url(../images/stremer/stremer-1.svg) no-repeat
+                    center;
+                background-size: contain;
+                // z-index: 3;
+            }
+        }
+    }
+    @media (max-width: 1050px) {
+        .stremer__top__title {
+            font-size: 40px;
+        }
+
+        .stremer__bottom__item img {
+            padding: 100px 200px;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .stremer__top__subtitle {
+            font-size: 18px;
+            line-height: 18px;
+        }
+
+        .stremer__top__title {
+            font-size: 30px;
+            line-height: 35px;
+        }
+
+    }
+
+    @media (max-width: 600px) {
+        .stremer__top__subtitle {
+            font-size: 16px;
+        }
+
+        .stremer__top__title {
+            font-size: 25px;
+        }
+
+        .stremer__bottom__item img {
+            padding: 80px 150px;
+        }
+
+
+    }
+}

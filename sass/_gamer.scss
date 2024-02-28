@@ -1,0 +1,82 @@
+#gamer {
+    padding: 100px 0;
+    background: url(../images/gamer/photo_2024-02-28_16-26-41.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.gamer {
+    &__top {
+        text-align: center;
+        &__title {
+            display: inline-block;
+            padding-top: 30px;
+            color: #5000b9;
+            border-bottom: 3px solid #5000b9;
+            span {
+                color: $backgroundColor;
+            }
+        }
+    }
+    &__bottom {
+        &__item{
+            padding-top: 40px;
+            gap: 40px;
+            &__left {
+                width: 40%;
+                img {
+                    width: 100%;
+                }
+            }
+            &__right {
+                width: 50%;
+                &__desc {
+                    padding: 30px 0;
+                    color: #332B5C;
+                }
+                &__avtor {
+                    h3 {
+                        color: #B53071;
+                        line-height: 30px;
+                    }
+                    p {
+                        color: #332B5C;
+                        line-height: 30px;
+                    }
+                }
+
+            }
+        }
+    }
+    @media (max-width:700px) {
+        &__top__title {
+            font-size: 40px;
+        }
+        &__bottom__item {
+            flex-direction: column;
+            &__left {
+                width: 50%;
+            }
+            &__right {
+                width: 100%;
+            }
+        }
+    }
+    @media (max-width:450px) {
+        &__top__subtitle {
+            font-size: 16px;
+        }
+        &__top__title {
+            font-size: 30px;
+            line-height: 20px;
+        }
+        &__bottom__item {
+            flex-direction: column;
+            &__left {
+                width: 90%;
+            }
+            &__right {
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="images/logo.svg" />
+        <!-- Global styles -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+            integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+            integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="images/logo.svg">
-    <!-- Global styles -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Local styles -->
 
+        <link rel="stylesheet" href="./css/style.min.css" />
 
-
-    <!-- Local styles -->
-
-    <link rel="stylesheet" href="./css/style.min.css" />
-
-
-
-
-    <title>Gamix-G</title>
-</head>
+        <title>Gamix-G</title>
+    </head>
 
 <body>
     <div class="back-top">
@@ -50,7 +55,7 @@
                             <a href="#">Games</a>
                         </li>
                         <li class="header__nav__right__list__item">
-                            <a href="#about">About</a>
+                            <a href="#">About</a>
                         </li>
                         <li class="header__nav__right__list__item">
                             <a href="#">Contact</a>
@@ -60,7 +65,7 @@
                         </li>
                     </ul>
 
-                    <button class=" contact_btn btn">
+                    <button class="btn">
                         Contact
                     </button>
                     <button class="header__nav__right__btns__hamburger">
@@ -71,6 +76,7 @@
                 </div>
             </nav>
         </div>
+
     </header>
     <main>
         <!-- section hero start -->
@@ -78,8 +84,9 @@
             <div class="container hero__container df">
                 <div class="hero__left">
                     <p class="hero__subtitle subtitle">Game Tournament Here</p>
-                    <h1 class="hero__title title">New <span class="hero__title__games">Games</span> <br> That You
-                    </h1>
+                    <h1 class="hero__title title">New <span class="hero__title__games">Games</span> That You <span
+                            class="hero__title__enjoy">Enjoy</span> </h1>
+
                     <p class="hero__desc desc">Gaming and Sports Template that is designed to build modern Online Game,
                         Gaming News Portal, Gaming Online News Portal,
                         and other News services websites and it is suitable for any kind of small business activity.</p>
@@ -89,6 +96,7 @@
                         <a href="#" class="hero__btn__triller"><img src="images/hero/hero-link.svg" alt=""> <span>Watch
                                 Trailer</span></a>
                     </div>
+
                 </div>
                 <div class="hero__right">
                     <img src="images/hero/hero-right.png" alt="">
@@ -102,7 +110,7 @@
                             <p class="frame__right__desc">Halloween Gaming</p>
                             <div class="hero__right__frame__right__bottom df ">
                                 <img src="images/hero/right-frmae-stars.svg" alt="">
-                                <p class="frame__right__desc">125+Review</p>
+                                <p class="frame__right__bottom__desc">125+Review</p>
                             </div>
                         </div>
                     </div>
@@ -111,157 +119,21 @@
 
         </section>
         <!-- section hero end -->
-
-        <!-- section about start -->
-        <section id="about" class="about">
-            <div class="container about__container">
-                <div class="about__left">
-                    <img class="about__left__img" src="images/about/robots-img.png"
-                        alt="here is the image of about section" />
-                </div>
-
-                <div class="about__right">
-                    <h3 class="about__right__subtitle subtitle">About Robot Games</h3>
-                    <h2 class="about__right__title title">
-                        Robots is an Interactive
-                        <span class="about__right__title__main">Card Games</span>
-                    </h2>
-                    <p class="about__right__desc desc">
-                        Gaming and Sports Template that is designed to build modern Online
-                        Game, Gaming News Portal, Gaming Online News Portal, and other
-                        News services websites and it is suitable for any kind of small
-                        business activity.
-                    </p>
-                    <button class="about__right__btn btn">
-                        Explore More
-                        <span><img src="images/about/about-btn-icon.svg" alt="img" /></span>
-                    </button>
-                </div>
-            </div>
-        </section>
-        <!-- section about end -->
     </main>
 
-    <footer id="footer" class="footer">
-        <div class="container footer__container">
-            <div class="footer__top">
-                <div class="footer__top__cards">
-                    <div class="footer__top__card footer-card-logo">
-                        <a href="index.html">
-                            <img class="footer__top__card__img" src="images/footer/footer-logo.svg"
-                                alt="here is the logo of website" />
-                        </a>
 
-                        <p class="footer__top__card__desc desc">
-                            Gaming and Sports Template that is designed to build modern
-                            Online Game, Gaming News Portal,News services websites and it is
-                            suitable for any kind of small business activity.
-                        </p>
-                    </div>
 
-                    <div class="footer__top__card">
-                        <h4 class="footer__top__card__title">Games & Cards</h4>
-                        <ul class="footer__top__card__list">
-                            <li class="footer__top__card__item">
-                                <a href="#" class="footer__top__card__link">Help Center</a>
-                            </li>
-                            <li class="footer__top__card__item">
-                                <a href="#" class="footer__top__card__link">About</a>
-                            </li>
-                            <li class="footer__top__card__item">
-                                <a href="#" class="footer__top__card__link">Blog</a>
-                            </li>
-                            <li class="footer__top__card__item">
-                                <a href="#" class="footer__top__card__link">FAQs</a>
-                            </li>
-                        </ul>
-                    </div>
+<!-- Global styles -->
 
-                    <div class="footer__top__card">
-                        <h4 class="footer__top__card__title">Company</h4>
-                        <ul class="footer__top__card__list">
-                            <li class="footer__top__card__item">
-                                <a href="#" class="footer__top__card__link">All</a>
-                            </li>
-                            <li class="footer__top__card__item">
-                                <a href="#" class="footer__top__card__link">Actions Cards</a>
-                            </li>
-                            <li class="footer__top__card__item">
-                                <a href="#" class="footer__top__card__link">Hero Games</a>
-                            </li>
-                            <li class="footer__top__card__item">
-                                <a href="#" class="footer__top__card__link">Robots Games</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="footer__top__card">
-                        <h4 class="footer__top__card__title">Contact us</h4>
-                        <ul class="footer__top__card__list">
-                            <li class="footer__top__card__item footer-item-contact">
-                                <img src="images/footer/footer-mail.svg" alt="email" />
-                                <a href="#" class="footer__top__card__link">contact@example.com</a>
-                            </li>
-                            <li class="footer__top__card__item footer-item-contact">
-                                <img src="images/footer/footer-phone.svg" alt="telphone" />
-                                <a href="#" class="footer__top__card__link">+152 534-468-854</a>
-                            </li>
-                            <li class="footer__top__card__item footer-item-contact">
-                                <img src="images/footer/footer-location.svg" alt="location" />
-                                <a href="#" class="footer__top__card__link">View on Google map</a>
-                            </li>
-                            <li class="footer__top__card__item footer-contact-icons">
-                                <a href="#" class="footer__top__card__link">
-                                    <img class="footer-top-icon" src="images/footer/footer-facebook.svg"
-                                        alt="facebook" />
-                                    <img class="footer-top-icon" src="images/footer/footer-linkedin.svg"
-                                        alt="linkedin" />
-                                    <img class="footer-top-icon" src="images/footer/footer-pinterest.svg"
-                                        alt="pinterest" />
-                                    <img class="footer-top-icon" src="images/footer/footer-twitter.svg" alt="twitter" />
-                                    <img class="footer-top-icon" src="images/footer/footer-instagram.svg"
-                                        alt="instagram" />
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer__bottom">
-                <span class="footer__bottom__line"></span>
-                <ul class="footer__bottom__list">
-                    <li class="footer__bottom__item">
-                        <a href="#" class="footer__bottom__item__link">Terms of Use</a>
-                    </li>
-                    <li class="footer__bottom__item">
-                        <a href="#" class="footer__bottom__item__link">Secure</a>
-                    </li>
-                    <li class="footer__bottom__item">
-                        <a href="#" class="footer__bottom__item__link">payments</a>
-                    </li>
-                    <li class="footer__bottom__item">
-                        <a href="#" class="footer__bottom__item__link">Privacy policy</a>
-                    </li>
-                    <li class="footer__bottom__item">
-                        <a href="#" class="footer__bottom__item__link">Contact us</a>
-                    </li>
-                    <li class="footer__bottom__item">
-                        <a href="#" class="footer__bottom__item__link">FAQ</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-    <!-- Global styles -->
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
-        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- Local style -->
     <script src="./js/main.js"></script>
 </body>
+
+</html>
