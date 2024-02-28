@@ -1,8 +1,31 @@
 #hero{
     padding:80px 0;
-    background: pink;
-}
+    background: url(../images/hero/hero-back.png)  no-repeat center;
+    background-size: cover;
+    background-color: #ffecfb;
 
+}
+.hero__container{
+    background: url(../images/hero/hero-map.png) no-repeat bottom center;
+}
+.hero__left{
+    background: url(../images/hero/back-x.png) no-repeat top  left,
+    url(../images/hero/hero-play.png) no-repeat top right,
+    url(../images/hero/hero-ur.svg) no-repeat left calc(240px) bottom calc(150px),
+    url(../images/hero/hero-o.png) no-repeat left calc(347px) bottom calc(275px)
+    ;
+
+}
+.hero__right{
+    background: url(../images/hero/hero-romb.png) no-repeat right calc(120px) top calc(40px),
+    url(../images/hero/back-x.png) no-repeat center right calc(50px),
+    url(../images/hero/hero-point.png) no-repeat bottom calc(150px) right,
+    url(../images/hero/hero-btm.png) no-repeat top calc(150px) left calc(50px),
+    url(../images/hero/hero-four.png) no-repeat bottom calc(180px) left calc(60px),
+    url(../images/hero/hero-ps.png) no-repeat top calc(150px) right calc(70px),
+    url(../images/hero/hero-nd.png) no-repeat bottom calc(180px)  right calc(70px)
+    ;
+}
 
 .hero__left{
     width: 45%;
@@ -12,6 +35,9 @@
 }
 .hero__title__games{
     color: $backgroundColor;
+}
+.hero__subtitle{
+    padding-top: 50px;
 }
 .hero__title__enjoy{
     color: green;
@@ -49,6 +75,7 @@
 
 
 .hero__right{
+    position: relative;
     width: 45%;
 }
 .hero__right img{
@@ -56,13 +83,104 @@
 }
 
 .hero__right__frame{
-    width: 187px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:  187px;
     height: 84px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:$secondaryColor;
+    box-shadow: 5px 10px 15px #39007559  ;
 
 }
 .hero__right__frame__left{
-    width: 75%;
+    width: 55%;
 }
 .hero__right__frame__left img{
     width: 100%;
 }
+
+.hero__right__frame__right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.frame__right__title{
+    font-size: 10px;
+    color:$primaryColor ;
+}
+.frame__right__desc{
+    font-size: 8px;
+    color:$descGrey ;
+}
+
+.hero__right__frame__right__bottom{
+    gap:5px
+}
+
+
+
+@media (max-width:1060px) {
+    .hero__container{
+        gap: 50px;
+        flex-direction: column-reverse;
+    }
+    .hero__left{
+        padding-top: 50px;
+        width: 70%;
+    }
+    .hero__right{
+        width: 70%;
+    }
+    .hero__left{
+    background: 
+    url(../images/hero/hero-ur.svg) no-repeat left calc(240px) bottom calc(180px),
+    ;
+
+}
+
+}
+
+@media (max-width:700px) {
+    .hero__container {
+            background:none;
+        }
+                .hero__left {
+                    padding-top: 50px;
+                    width: 90%;
+                }
+        
+                .hero__right {
+                    width: 90%;
+                }
+}
+
+@media (max-width:550px) {
+    
+    .hero__left {
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    .hero__right {
+        width: 100%;
+    }
+    .hero__title{
+        font-size: 45px;
+    }
+    .hero__desc{
+        font-size: 20px;
+    }
+          .hero__left {
+              background:
+                  url(../images/hero/hero-ur.svg) no-repeat left calc(190px) bottom calc(220px),
+              ;
+    
+          }
+}
+
