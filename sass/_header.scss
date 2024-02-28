@@ -114,9 +114,10 @@ body {
         transition: 0.3s;
         z-index: 9999;
     }
-
-    .header__nav__right__btns {
-        gap: 10px;
+    @media (max-width:360px){
+        .contact_btn{
+            display: none;
+        }
     }
 
     .header__nav__right__btns__hamburger {
