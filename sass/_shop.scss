@@ -1,0 +1,190 @@
+.shop {
+    padding: 90px 0;
+    background: url(../images/shop/shop_back.svg) no-repeat center;
+    background-size: cover;
+
+    .shop__top {
+        display: flex;
+        gap: 50px;
+
+        &__left {
+            width: calc(60% - 25px);
+
+            &__title {
+                padding: 30px 0;
+            }
+        }
+
+        &__right {
+            width: calc(40% - 25px);
+            display: flex;
+            gap: 20px;
+            align-items: center;
+
+            &__img {
+                width: calc(40% - 10px);
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            &__infos {
+                width: calc(60% - 10px);
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+
+                &__title {
+                    font-size: 28px;
+                    list-style: 38px;
+                    color: $primaryColor;
+                }
+
+                &__stars {
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+
+                    span {
+                        font-size: 18px;
+                        list-style: 24px;
+                        color: $primaryColor;
+                    }
+                }
+
+                &__price {
+                    display: flex;
+                    gap: 20px;
+
+                    span:nth-child(1) {
+                        font-size: 24px;
+                        line-height: 24px;
+                        color: $backgroundColor;
+                    }
+
+                    span:nth-child(2) {
+                        font-size: 24px;
+                        line-height: 24px;
+                        color: $blackColor;
+                        opacity: 0.5;
+                        text-decoration: line-through;
+                    }
+                }
+
+                &__btn {
+                    max-width: 200px;
+                    display: flex;
+                    gap: 5px;
+                    align-items: center;
+                    justify-content: center;
+
+                    img {
+                        width: 20%;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width:1200px) {
+        .shop__top__left__title {
+            font-size: 45px;
+            line-height: 45px;
+        }
+
+        .shop__top__left__desc {
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+
+    @media (max-width:1100px) {
+        .shop__top__right__infos__title {
+            font-size: 24px;
+            list-style: 28px;
+        }
+
+        .shop__top__right__infos__price {
+            display: flex;
+            gap: 20px;
+
+            span:nth-child(1) {
+                font-size: 20px;
+                line-height: 20px;
+            }
+
+            span:nth-child(2) {
+                font-size: 20px;
+                line-height: 20px;
+            }
+        }
+    }
+
+    @media (max-width:990px) {
+
+        .shop__top__left,
+        .shop__top__right {
+            width: calc(50% - 25px);
+        }
+
+        .shop__top__left__title {
+            font-size: 30px;
+            line-height: 30px;
+        }
+
+        .shop__top__left__desc {
+            font-size: 14px;
+            line-height: 18px;
+        }
+
+        .shop__top__left__subtitle {
+            font-size: 16px;
+            line-height: 18px;
+        }
+    }
+
+    @media (max-width:900px) {
+        .shop__top__right__infos__title {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+
+    @media (max-width:800px) {
+        .shop__top {
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        .shop__top__left,
+        .shop__top__right {
+            width: calc(90%);
+        }
+    }
+
+    @media (max-width:430px) {
+        .shop__top__right {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .shop__top__right__img,
+        .shop__top__right__infos {
+            width: 90%;
+        }
+
+        .shop__top__left__title{
+            padding: 15px 0;
+        }
+
+        .shop__top__right__img {
+            img {
+                width: 90%;
+            }
+        }
+    }
+}
