@@ -60,6 +60,7 @@
     transition: 0.5s;
 }
 
+
 .hero__btn__triller:hover {
    color:$hoverColor;
     font-weight: 600;
@@ -68,10 +69,14 @@
    
 }
 
+.hero__left {
+    width: 45%;
 
+}
+.hero__left img{
+    width:100%;
 
-
-
+}
 
 
 .hero__right{
@@ -82,21 +87,22 @@
     width: 100%;
 }
 
-.hero__right__frame{
+.hero__right__frame__right{
     position: absolute;
     top: 0;
     left: 0;
     width:  187px;
     height: 84px;
-    display: flex;
-    align-items: center;
     gap: 15px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
-    background-color:$secondaryColor;
     box-shadow: 5px 10px 15px #39007559  ;
 
 }
+.hero__right__frame__right img{
+    width: 100%;
+}
+
 .hero__right__frame__left{
     width: 55%;
 }
